@@ -1,0 +1,11 @@
+{
+  "pets": [
+    {
+      "id": "marmalade",
+      "displayName": "Marmalade",
+      "description": "A lazy orange tabby companion with heavy-lidded charm, snack-first priorities, and deadpan nap energy.",
+      "packagePath": "pets/marmalade",
+      "previewPath": "previews/marmalade/contact-sheet.png"
+    }
+  ]
+}

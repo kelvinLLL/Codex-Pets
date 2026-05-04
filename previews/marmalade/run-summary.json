@@ -1,0 +1,17 @@
+{
+  "ok": true,
+  "petId": "marmalade",
+  "package": "pets/marmalade",
+  "spritesheet": "pets/marmalade/spritesheet.webp",
+  "contactSheet": "previews/marmalade/contact-sheet.png",
+  "review": "previews/marmalade/review.json",
+  "videos": "previews/marmalade/videos",
+  "validation": {
+    "format": "WEBP",
+    "mode": "RGBA",
+    "width": 1536,
+    "height": 1872,
+    "errors": [],
+    "warnings": []
+  }
+}
