@@ -24,6 +24,8 @@ ${CODEX_HOME:-$HOME/.codex}/pets/marmalade/
 
 Then restart Codex and select `Marmalade` from the pet or appearance settings.
 
+The helper script is optional. It only validates the package and copies `pet.json` plus `spritesheet.webp` into the Codex pets folder.
+
 ## Install Manually
 
 ```bash
@@ -37,6 +39,16 @@ If you downloaded the repository as a ZIP, unzip it first, then copy the `pets/m
 ```text
 ${CODEX_HOME:-$HOME/.codex}/pets/
 ```
+
+This is the same end state as running the helper script:
+
+```text
+${CODEX_HOME:-$HOME/.codex}/pets/marmalade/
+  pet.json
+  spritesheet.webp
+```
+
+The folder name should match the `id` field in `pet.json`, and `spritesheetPath` should point to the WebP file relative to that folder.
 
 ## Verify The Install
 
